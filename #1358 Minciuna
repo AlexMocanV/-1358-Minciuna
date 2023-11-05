@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    long long int x,y;
+    cin>>y>>x;
+    if((y%2==0&&x==y+1)or(x%2==0&&y==x+1))
+    {
+        cout<<"Andrei e mai responsabil";
+    }
+    else
+    {
+        cout<<"minciuna";
+    }
+    
+    
+    
+    return 0;
+}
